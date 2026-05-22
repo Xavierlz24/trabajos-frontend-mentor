@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  hsl(217, 54%, 11%);
+}
+
+.container{
+    display: flex;
+}
+
+.image{
+    display: block;
+    width: 265px;
+    height: 250px;
+    margin: auto;
+    margin-top: 20px ;
+    border-radius: 15px;
+}
+
+.div__1{
+   background-color: hsl(216, 50%, 16%);
+   width: 300px;
+   height: 500px;
+   border-radius: 15px;
+   box-shadow: 5px 5px 10px color(srgb rgb(124, 118, 118));
+   margin: auto;
+   margin-top: 50px;
+}
+
+.title{
+    color:  hsl(0, 0%, 100%);
+    margin-top: 25px;
+    font-size: 20px;
+    margin-left: 19px;
+}
+
+.text{
+    color: hsl(0, 0%, 60%);
+    margin-top: 15px;
+    margin-left: 19px;
+}
+
+.span__1{
+    color: hsl(178, 100%, 50%);
+}
+
+.span__2{
+    color:hsl(0, 0%, 60%); 
+}
+
+.div__2{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 19px;
+}
+
+.div__3{
+    margin-left: 185px;
+    margin-top: 20px;
+}
+
+hr{
+    margin-top: 15px;
+    width: 260px;
+    margin-left: 19px;
+}
+
+
+.avatar{
+    width: 28px;
+    height: 28px;
+    display: block;
+    margin-left: 19px;
+}
+
+.div__4{
+    display: flex;
+    gap: calc(10px);
+    margin-top: 20px;
+}
+
+.text__2{
+    color: hsl(0, 0%, 60%); 
+    margin-left: 20px;
+}
+
+.text__3{
+    color: #fff;
+}
